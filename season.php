@@ -27,7 +27,12 @@
     <script src="main.js"></script> 
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+    </div>
     <div class="header">
+        <img src="res/menu.svg" class="menuicon" onclick="openNav()"/>
         <h1>vShelf</h1>
     </div>
     
